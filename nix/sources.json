@@ -1,4 +1,10 @@
 {
+    "easy-purescript-nix": {
+        "ref": "master",
+        "repo": "git@github.com:justinwoo/easy-purescript-nix",
+        "rev": "e79f0a4ee53726982f69696df9493a1e1f022a59",
+        "type": "git"
+    },
     "niv": {
         "branch": "master",
         "description": "Easy dependency management for Nix projects",
