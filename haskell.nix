@@ -5,7 +5,6 @@ let
 
   self = rec {
     inherit ghc;
-    cabal = ghc.cabal;
     cabal-install = ghc.cabal-install;
     haskell-language-server = ghc.haskell-language-server;
     stylish-haskell = ghc.stylish-haskell;
@@ -18,7 +17,6 @@ let
         self.haskell-language-server
         self.stylish-haskell
         self.hlint
-        self.cabal
         self.cabal-install
       ];
     };
