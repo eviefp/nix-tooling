@@ -1,7 +1,7 @@
 {
     "easy-purescript-nix": {
         "ref": "master",
-        "repo": "git@github.com:justinwoo/easy-purescript-nix",
+        "repo": "git@github.com:vladciobanu/easy-purescript-nix",
         "rev": "b5891b3669d0c6c4d2e157f25a2d5c03f3e9e613",
         "type": "git"
     },

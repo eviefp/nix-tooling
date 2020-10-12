@@ -3,7 +3,7 @@ let
   self = rec {
     # for npx to install purescript-language-server
     nodejs = pkgs.nodejs;
-    purs = easy-ps.purs;
+    purs = easy-ps.purs-0_14_0-rc3;
     spago = easy-ps.spago;
     pscid = easy-ps.pscid;
     spago2nix = easy-ps.spago2nix;
