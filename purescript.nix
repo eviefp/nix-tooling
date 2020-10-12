@@ -7,6 +7,7 @@ let
     spago = easy-ps.spago;
     pscid = easy-ps.pscid;
     spago2nix = easy-ps.spago2nix;
+    pulp = easy-ps.pulp;
 
     mkShell = pkgs.mkShell {
       buildInputs = [
@@ -15,6 +16,7 @@ let
         self.spago
         self.pscid
         self.spago2nix
+        easy-ps.pulp
       ];
     };
   };
