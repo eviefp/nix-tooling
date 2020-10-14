@@ -1,26 +1,9 @@
 { pkgs }:
 let
-  ghc = pkgs.haskell.packages.ghc883;
-
-
-  self = rec {
-    inherit ghc;
-    cabal-install = ghc.cabal-install;
-    haskell-language-server = ghc.haskell-language-server;
-    stylish-haskell = ghc.stylish-haskell;
-    hlint = ghc.hlint;
-    ghc883 = pkgs.haskell.compiler.ghc883;
-
-    mkShell = pkgs.mkShell {
-      buildInputs = [
-        self.ghc883
-        self.haskell-language-server
-        self.stylish-haskell
-        self.hlint
-        self.cabal-install
-      ];
-    };
-  };
-
+  ghc86 = import ./haskell-8.6.nix { inherit pkgs; };
+  ghc88 = import ./haskell-8.8.nix { inherit pkgs; };
 in
-  self
+  {
+    ghc86 = ghc86;
+    ghc88 = ghc88;
+  }
