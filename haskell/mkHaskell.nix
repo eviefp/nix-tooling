@@ -13,6 +13,7 @@ let
         packages.cabal-install
         packages.cabal2nix
         packages.hpack
+        packages.implicit-hie
         # packages.hpack-dhall broken
         # packages.hpack-convert
     ];
