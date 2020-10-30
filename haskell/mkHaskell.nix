@@ -14,6 +14,7 @@ let
         packages.cabal2nix
         packages.hpack
         packages.implicit-hie
+        packages.callCabal2nix
         # packages.hpack-dhall broken
         # packages.hpack-convert
     ];
