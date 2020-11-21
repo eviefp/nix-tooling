@@ -1,11 +1,7 @@
 { pkgs, version }:
 let
   packages = pkgs.haskell.packages."${version}";
-
-  self = rec {
-    inherit packages;
-    compiler = pkgs.haskell.compiler."${version}";
-    defaultInputs = [
+  defInputs = [
         self.compiler
         packages.haskell-language-server
         packages.stylish-haskell
@@ -14,13 +10,16 @@ let
         packages.cabal2nix
         packages.hpack
         packages.implicit-hie
-        packages.callCabal2nix
         # packages.hpack-dhall broken
         # packages.hpack-convert
     ];
 
+  self = {
+    inherit packages;
+    compiler = pkgs.haskell.compiler."${version}";
+    defaultInputs = defInputs;
     shell = pkgs.mkShell {
-      buildInputs = self.defaultInputs;
+      buildInputs = defInputs;
     };
   };
 
