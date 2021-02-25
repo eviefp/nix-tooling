@@ -3,7 +3,7 @@
         "branch": "master",
         "ref": "master",
         "repo": "git@github.com:justinwoo/easy-purescript-nix",
-        "rev": "c8c32741bc09e2ac0a94d5140cf51fa5de809e24",
+        "rev": "c2e49b4a94ee55df294212c561f2ac7225a8ebbf",
         "type": "git"
     },
     "niv": {
@@ -24,10 +24,10 @@
         "homepage": "https://github.com/NixOS/nixpkgs",
         "owner": "NixOS",
         "repo": "nixpkgs",
-        "rev": "e7de728103e62557830e070edf2ff8f3601f004f",
-        "sha256": "0fhy83j1cd68mfrw7pvjxpvmkydfg940w2jpgsjwssj9fc8qc0vl",
+        "rev": "a4c39dea04de9f39363b2da8aeaf66698e7defb5",
+        "sha256": "032k127swcyp3ykvzysz1ri5ck7iaqhddx52yr07vccvww2qym9z",
         "type": "tarball",
-        "url": "https://github.com/NixOS/nixpkgs/archive/e7de728103e62557830e070edf2ff8f3601f004f.tar.gz",
+        "url": "https://github.com/NixOS/nixpkgs/archive/a4c39dea04de9f39363b2da8aeaf66698e7defb5.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     }
 }
