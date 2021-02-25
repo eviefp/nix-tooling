@@ -22,12 +22,12 @@
         "branch": "haskell-updates",
         "description": "A read-only mirror of NixOS/nixpkgs tracking the released channels. Send issues and PRs to",
         "homepage": "https://github.com/NixOS/nixpkgs",
-        "owner": "NixOS",
+        "owner": "vladciobanu",
         "repo": "nixpkgs",
-        "rev": "a4c39dea04de9f39363b2da8aeaf66698e7defb5",
-        "sha256": "032k127swcyp3ykvzysz1ri5ck7iaqhddx52yr07vccvww2qym9z",
+        "rev": "8ae35c2a3b1e21fe47a4be3f5498ff9648c58120",
+        "sha256": "1102hz48bdwzybw7kmk48rc8h5n0kxy8ym8pvrciwhd39iwg1209",
         "type": "tarball",
-        "url": "https://github.com/NixOS/nixpkgs/archive/a4c39dea04de9f39363b2da8aeaf66698e7defb5.tar.gz",
+        "url": "https://github.com/vladciobanu/nixpkgs/archive/8ae35c2a3b1e21fe47a4be3f5498ff9648c58120.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     }
 }
