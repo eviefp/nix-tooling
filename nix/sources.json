@@ -3,7 +3,7 @@
         "branch": "master",
         "ref": "master",
         "repo": "git@github.com:justinwoo/easy-purescript-nix",
-        "rev": "c2e49b4a94ee55df294212c561f2ac7225a8ebbf",
+        "rev": "3b4039475c245243716b1e922455a9062c0531da",
         "type": "git"
     },
     "niv": {
@@ -22,12 +22,12 @@
         "branch": "haskell-updates",
         "description": "A read-only mirror of NixOS/nixpkgs tracking the released channels. Send issues and PRs to",
         "homepage": "https://github.com/NixOS/nixpkgs",
-        "owner": "vladciobanu",
+        "owner": "nixos",
         "repo": "nixpkgs",
-        "rev": "8ae35c2a3b1e21fe47a4be3f5498ff9648c58120",
-        "sha256": "1102hz48bdwzybw7kmk48rc8h5n0kxy8ym8pvrciwhd39iwg1209",
+        "rev": "7e37bd79d2a78be7f809d2f9fc56161fb24293ab",
+        "sha256": "13c5s0fz9wiz0jzq3687pc0a0hcjr1amjc2j5vhdip8b90kr12fz",
         "type": "tarball",
-        "url": "https://github.com/vladciobanu/nixpkgs/archive/8ae35c2a3b1e21fe47a4be3f5498ff9648c58120.tar.gz",
+        "url": "https://github.com/nixos/nixpkgs/archive/7e37bd79d2a78be7f809d2f9fc56161fb24293ab.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     }
 }
