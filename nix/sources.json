@@ -3,7 +3,7 @@
         "branch": "master",
         "ref": "master",
         "repo": "git@github.com:justinwoo/easy-purescript-nix",
-        "rev": "e8a1ffafafcdf2e81adba419693eb35f3ee422f8",
+        "rev": "b197e8764680f39416352f2ab3ed8f25e2a6b333",
         "type": "git"
     },
     "niv": {
@@ -12,22 +12,22 @@
         "homepage": "https://github.com/nmattia/niv",
         "owner": "nmattia",
         "repo": "niv",
-        "rev": "af958e8057f345ee1aca714c1247ef3ba1c15f5e",
-        "sha256": "1qjavxabbrsh73yck5dcq8jggvh3r2jkbr6b5nlz5d9yrqm9255n",
+        "rev": "1819632b5823e0527da28ad82fecd6be5136c1e9",
+        "sha256": "08jz17756qchq0zrqmapcm33nr4ms9f630mycc06i6zkfwl5yh5i",
         "type": "tarball",
-        "url": "https://github.com/nmattia/niv/archive/af958e8057f345ee1aca714c1247ef3ba1c15f5e.tar.gz",
+        "url": "https://github.com/nmattia/niv/archive/1819632b5823e0527da28ad82fecd6be5136c1e9.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "nixpkgs": {
         "branch": "haskell-updates",
         "description": "A read-only mirror of NixOS/nixpkgs tracking the released channels. Send issues and PRs to",
         "homepage": "https://github.com/NixOS/nixpkgs",
-        "owner": "nixos",
+        "owner": "NixOS",
         "repo": "nixpkgs",
-        "rev": "8d92f6cd3ef4c83730589472c30f7b58091bb2a9",
-        "sha256": "0fy1f49m18y492fzfkim16i5sxim0scxgc7p69vz4098zlinja6a",
+        "rev": "2451208b1bf3f0bd1b24068db72b4d81c5da63a7",
+        "sha256": "07fjr263hgrx9azzyq6ak1841zh82ia50ibfi94cdvq1y3vch6ga",
         "type": "tarball",
-        "url": "https://github.com/nixos/nixpkgs/archive/8d92f6cd3ef4c83730589472c30f7b58091bb2a9.tar.gz",
+        "url": "https://github.com/NixOS/nixpkgs/archive/2451208b1bf3f0bd1b24068db72b4d81c5da63a7.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     }
 }
