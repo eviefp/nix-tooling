@@ -19,15 +19,15 @@
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "nixpkgs": {
-        "branch": "haskell-updates",
+        "branch": "nixos-20.09-small",
         "description": "A read-only mirror of NixOS/nixpkgs tracking the released channels. Send issues and PRs to",
         "homepage": "https://github.com/NixOS/nixpkgs",
         "owner": "NixOS",
         "repo": "nixpkgs",
-        "rev": "2451208b1bf3f0bd1b24068db72b4d81c5da63a7",
-        "sha256": "07fjr263hgrx9azzyq6ak1841zh82ia50ibfi94cdvq1y3vch6ga",
+        "rev": "cee3ca37c68dad981396365bf4b1d0c807ac4eb4",
+        "sha256": "1m6f60gnhgsbmavw0mq1r00v2lb4mhrxbx5dxqp3qhadfaxm8xn2",
         "type": "tarball",
-        "url": "https://github.com/NixOS/nixpkgs/archive/2451208b1bf3f0bd1b24068db72b4d81c5da63a7.tar.gz",
+        "url": "https://github.com/NixOS/nixpkgs/archive/cee3ca37c68dad981396365bf4b1d0c807ac4eb4.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     }
 }
